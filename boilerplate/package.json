@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "eslint src --max-warnings=0",
     "test": "jest",
-    "test:watch": "yarn test --watch",
-    "prepare": "husky install"
+    "test:watch": "yarn test --watch"
   },
   "husky": {
     "hooks": {
@@ -25,7 +24,8 @@
   "dependencies": {
     "next": "10.2.3",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "styled-components": "^5.3.0"
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.13.0",
